@@ -1,0 +1,21 @@
+[submodule "marketing/marketingskills"]
+	path = marketing/marketingskills
+	url = https://github.com/coreyhaines31/marketingskills.git
+[submodule "instagram/instagram-agent-skill"]
+	path = instagram/instagram-agent-skill
+	url = https://github.com/Jakeschincariol/instagram-agent-skill.git
+[submodule "linkedin/linkedin-skills"]
+	path = linkedin/linkedin-skills
+	url = https://github.com/sergebulaev/linkedin-skills.git
+[submodule "replica-skill/replica-skill"]
+	path = replica-skill/replica-skill
+	url = https://github.com/Jakeschincariol/replica-skill.git
+[submodule "reverse-engineer/rea"]
+	path = reverse-engineer/rea
+	url = https://github.com/morluto/rea.git
+[submodule "superpowers/superpowers"]
+	path = superpowers/superpowers
+	url = https://github.com/obra/superpowers.git
+[submodule "graphify/graphify"]
+	path = graphify/graphify
+	url = https://github.com/Graphify-Labs/graphify.git

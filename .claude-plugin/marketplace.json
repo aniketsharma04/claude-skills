@@ -1,0 +1,85 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-skills",
+  "description": "One marketplace for a curated set of free Claude Code skill packs: marketing, Instagram, LinkedIn, app cloning (Replica), dev workflow (Superpowers) and Remotion video.",
+  "owner": {
+    "name": "Aniket Sharma"
+  },
+  "plugins": [
+    {
+      "name": "marketing-skills",
+      "description": "50 marketing skills: CRO, copywriting, SEO, AI SEO, ads, emails, launch, pricing and more. By Corey Haines (MIT).",
+      "source": { "source": "github", "repo": "coreyhaines31/marketingskills" },
+      "homepage": "https://github.com/coreyhaines31/marketingskills",
+      "license": "MIT",
+      "category": "marketing"
+    },
+    {
+      "name": "instagram-agent",
+      "description": "13 Instagram skills: reels, carousels, captions, comments, DMs, viral research, humanizer. By Jake Schincariol (MIT).",
+      "source": { "source": "github", "repo": "Jakeschincariol/instagram-agent-skill" },
+      "homepage": "https://github.com/Jakeschincariol/instagram-agent-skill",
+      "license": "MIT",
+      "category": "marketing"
+    },
+    {
+      "name": "linkedin-skills",
+      "description": "12 LinkedIn skills: post writer, comment drafter, reply handler, hook extractor, humanizer, profile optimizer. By Serge Bulaev (MIT).",
+      "source": { "source": "github", "repo": "sergebulaev/linkedin-skills" },
+      "homepage": "https://github.com/sergebulaev/linkedin-skills",
+      "license": "MIT",
+      "category": "marketing"
+    },
+    {
+      "name": "replica-skill",
+      "description": "11 skills that clone an app clean-room style: recon, architect, design, build, backend, test, diff, entrepreneur, brand, launch, deploy. By Jake Schincariol (MIT).",
+      "source": { "source": "github", "repo": "Jakeschincariol/replica-skill" },
+      "homepage": "https://github.com/Jakeschincariol/replica-skill",
+      "license": "MIT",
+      "category": "development",
+      "skills": [
+        "./replica-architect",
+        "./replica-backend",
+        "./replica-brand",
+        "./replica-build",
+        "./replica-deploy",
+        "./replica-design",
+        "./replica-diff",
+        "./replica-entrepreneur",
+        "./replica-launch",
+        "./replica-recon",
+        "./replica-test"
+      ]
+    },
+    {
+      "name": "superpowers",
+      "description": "15 development-workflow skills: brainstorming, writing and executing plans, TDD, systematic debugging, code review, git worktrees. By Jesse Vincent (MIT).",
+      "source": { "source": "github", "repo": "obra/superpowers" },
+      "homepage": "https://github.com/obra/superpowers",
+      "license": "MIT",
+      "category": "development"
+    },
+    {
+      "name": "remotion",
+      "description": "Remotion's official skills for making videos in React: create, markup, captions, render, studio and more. By Remotion.",
+      "source": { "source": "github", "repo": "remotion-dev/skills" },
+      "homepage": "https://github.com/remotion-dev/skills",
+      "category": "development",
+      "strict": false,
+      "skills": [
+        "./skills/remotion-best-practices",
+        "./skills/remotion-captions",
+        "./skills/remotion-create",
+        "./skills/remotion-docs",
+        "./skills/remotion-interactivity",
+        "./skills/remotion-maps",
+        "./skills/remotion-markup",
+        "./skills/remotion-multimedia",
+        "./skills/remotion-render",
+        "./skills/remotion-saas",
+        "./skills/remotion-studio",
+        "./skills/remotion-upgrade"
+      ]
+    }
+  ]
+}

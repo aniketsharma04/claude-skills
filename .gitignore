@@ -1,0 +1,47 @@
+# Whitelist: ignore everything, then allow only what is meant to be public.
+# Private work (job-ops, outputs, brand data, images, .env files, setup PDFs) stays local.
+/*
+!/.gitignore
+!/.gitmodules
+!/.gitattributes
+!/.claude-plugin/
+!/README.md
+!/LICENSE
+!/install.ps1
+!/install.sh
+
+# Skill packs are git submodules; the per-folder SETUP.md notes are public too.
+!/instagram/
+/instagram/*
+!/instagram/instagram-agent-skill
+
+!/linkedin/
+/linkedin/*
+!/linkedin/linkedin-skills
+
+!/marketing/
+/marketing/*
+!/marketing/marketingskills
+
+!/replica-skill/
+/replica-skill/*
+!/replica-skill/replica-skill
+!/replica-skill/SETUP.md
+
+!/superpowers/
+/superpowers/*
+!/superpowers/superpowers
+
+!/reverse-engineer/
+/reverse-engineer/*
+!/reverse-engineer/rea
+!/reverse-engineer/SETUP.md
+
+!/graphify/
+/graphify/*
+!/graphify/graphify
+!/graphify/SETUP.md
+
+.env
+.env.*
+!.env.example
